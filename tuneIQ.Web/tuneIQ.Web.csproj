@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\tuneIQ.Core\tuneIQ.Core.csproj" />
+    <ProjectReference Include="..\tuneIQ.Data\tuneIQ.Data.csproj" />
+    <ProjectReference Include="..\tuneIQ.Services\tuneIQ.Services.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
